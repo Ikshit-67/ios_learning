@@ -11,6 +11,7 @@
 		B12133332965C6B5006AC109 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B12133322965C6B5006AC109 /* ContentView.swift */; };
 		B12133352965C6B7006AC109 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B12133342965C6B7006AC109 /* Assets.xcassets */; };
 		B12133382965C6B7006AC109 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B12133372965C6B7006AC109 /* Preview Assets.xcassets */; };
+		B15722742967D70600085988 /* ColoursView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B15722732967D70600085988 /* ColoursView.swift */; };
 		B1C926C829670D55001785EC /* TextTutorial.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1C926C729670D55001785EC /* TextTutorial.swift */; };
 		B1C926CA29670D8D001785EC /* ShapesTutorial.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1C926C929670D8D001785EC /* ShapesTutorial.swift */; };
 /* End PBXBuildFile section */
@@ -21,6 +22,7 @@
 		B12133322965C6B5006AC109 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		B12133342965C6B7006AC109 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B12133372965C6B7006AC109 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		B15722732967D70600085988 /* ColoursView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColoursView.swift; sourceTree = "<group>"; };
 		B1C926C729670D55001785EC /* TextTutorial.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextTutorial.swift; sourceTree = "<group>"; };
 		B1C926C929670D8D001785EC /* ShapesTutorial.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShapesTutorial.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -61,6 +63,7 @@
 				B12133362965C6B7006AC109 /* Preview Content */,
 				B1C926C729670D55001785EC /* TextTutorial.swift */,
 				B1C926C929670D8D001785EC /* ShapesTutorial.swift */,
+				B15722732967D70600085988 /* ColoursView.swift */,
 			);
 			path = "IOS 2023 First";
 			sourceTree = "<group>";
@@ -147,6 +150,7 @@
 				B1C926C829670D55001785EC /* TextTutorial.swift in Sources */,
 				B12133312965C6B5006AC109 /* IOS_2023_FirstApp.swift in Sources */,
 				B1C926CA29670D8D001785EC /* ShapesTutorial.swift in Sources */,
+				B15722742967D70600085988 /* ColoursView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
