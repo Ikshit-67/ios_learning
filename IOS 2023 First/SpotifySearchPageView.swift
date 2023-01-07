@@ -75,7 +75,7 @@ struct SpotifySearchPageView: View {
                     }
                     
                 }
-            } //
+            } 
             
             VStack(alignment: .leading){
                 
