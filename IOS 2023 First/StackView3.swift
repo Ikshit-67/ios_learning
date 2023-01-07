@@ -26,6 +26,7 @@ struct StackView3: View {
 
                 StackView2()
             }
+            
             Spacer()
         }
     }
