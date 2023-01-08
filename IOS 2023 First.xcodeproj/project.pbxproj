@@ -19,6 +19,9 @@
 		B1B8EC912968066900E17232 /* StackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1B8EC902968066900E17232 /* StackView.swift */; };
 		B1B8EC9329680EB000E17232 /* StackView2.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1B8EC9229680EB000E17232 /* StackView2.swift */; };
 		B1B8EC952968123300E17232 /* StackView3.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1B8EC942968123300E17232 /* StackView3.swift */; };
+		B1B94325296B09D4008B3929 /* PaddingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1B94324296B09D4008B3929 /* PaddingView.swift */; };
+		B1B94327296B0F70008B3929 /* SpacerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1B94326296B0F70008B3929 /* SpacerView.swift */; };
+		B1B94329296B1271008B3929 /* LoopsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1B94328296B1271008B3929 /* LoopsView.swift */; };
 		B1C926C829670D55001785EC /* TextTutorial.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1C926C729670D55001785EC /* TextTutorial.swift */; };
 		B1C926CA29670D8D001785EC /* ShapesTutorial.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1C926C929670D8D001785EC /* ShapesTutorial.swift */; };
 /* End PBXBuildFile section */
@@ -37,6 +40,9 @@
 		B1B8EC902968066900E17232 /* StackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StackView.swift; sourceTree = "<group>"; };
 		B1B8EC9229680EB000E17232 /* StackView2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StackView2.swift; sourceTree = "<group>"; };
 		B1B8EC942968123300E17232 /* StackView3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StackView3.swift; sourceTree = "<group>"; };
+		B1B94324296B09D4008B3929 /* PaddingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaddingView.swift; sourceTree = "<group>"; };
+		B1B94326296B0F70008B3929 /* SpacerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpacerView.swift; sourceTree = "<group>"; };
+		B1B94328296B1271008B3929 /* LoopsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoopsView.swift; sourceTree = "<group>"; };
 		B1C926C729670D55001785EC /* TextTutorial.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextTutorial.swift; sourceTree = "<group>"; };
 		B1C926C929670D8D001785EC /* ShapesTutorial.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShapesTutorial.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -85,6 +91,9 @@
 				B1B8EC942968123300E17232 /* StackView3.swift */,
 				B13588732969623B006EC7EC /* SpotifySearchPageView.swift */,
 				B1B2C16D296AFA6D00F84A1E /* SpotifySearchPageSelfView.swift */,
+				B1B94324296B09D4008B3929 /* PaddingView.swift */,
+				B1B94326296B0F70008B3929 /* SpacerView.swift */,
+				B1B94328296B1271008B3929 /* LoopsView.swift */,
 			);
 			path = "IOS 2023 First";
 			sourceTree = "<group>";
@@ -167,6 +176,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B1B94327296B0F70008B3929 /* SpacerView.swift in Sources */,
 				B13588742969623C006EC7EC /* SpotifySearchPageView.swift in Sources */,
 				B12133332965C6B5006AC109 /* ContentView.swift in Sources */,
 				B1B2C16E296AFA6D00F84A1E /* SpotifySearchPageSelfView.swift in Sources */,
@@ -175,10 +185,12 @@
 				B12133312965C6B5006AC109 /* IOS_2023_FirstApp.swift in Sources */,
 				B1B8EC912968066900E17232 /* StackView.swift in Sources */,
 				B15722762967DDB500085988 /* IconImagesView.swift in Sources */,
+				B1B94329296B1271008B3929 /* LoopsView.swift in Sources */,
 				B1C926CA29670D8D001785EC /* ShapesTutorial.swift in Sources */,
 				B1B8EC952968123300E17232 /* StackView3.swift in Sources */,
 				B15722782967FC0500085988 /* ImageView.swift in Sources */,
 				B15722742967D70600085988 /* ColoursView.swift in Sources */,
+				B1B94325296B09D4008B3929 /* PaddingView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

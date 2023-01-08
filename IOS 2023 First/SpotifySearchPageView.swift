@@ -32,7 +32,6 @@ struct SpotifySearchPageView: View {
                             Rectangle()
                                 .fill(LinearGradient(colors: [.cyan, .blue], startPoint: .bottomTrailing, endPoint: .topLeading))
                                 .frame(width: 175, height: 100)
-                                .cornerRadius(10)
                                 .foregroundColor(.blue)
                             
                             // card title
@@ -52,6 +51,7 @@ struct SpotifySearchPageView: View {
                             .offset(x: 15, y: 0)
                     }
                     .clipped()
+                    .cornerRadius(10)
                     
                     ZStack (alignment: .bottomTrailing){
                         ZStack(alignment: .topLeading){
