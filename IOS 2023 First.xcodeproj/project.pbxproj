@@ -15,6 +15,7 @@
 		B15722742967D70600085988 /* ColoursView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B15722732967D70600085988 /* ColoursView.swift */; };
 		B15722762967DDB500085988 /* IconImagesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B15722752967DDB500085988 /* IconImagesView.swift */; };
 		B15722782967FC0500085988 /* ImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B15722772967FC0500085988 /* ImageView.swift */; };
+		B1B2C16E296AFA6D00F84A1E /* SpotifySearchPageSelfView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1B2C16D296AFA6D00F84A1E /* SpotifySearchPageSelfView.swift */; };
 		B1B8EC912968066900E17232 /* StackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1B8EC902968066900E17232 /* StackView.swift */; };
 		B1B8EC9329680EB000E17232 /* StackView2.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1B8EC9229680EB000E17232 /* StackView2.swift */; };
 		B1B8EC952968123300E17232 /* StackView3.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1B8EC942968123300E17232 /* StackView3.swift */; };
@@ -32,6 +33,7 @@
 		B15722732967D70600085988 /* ColoursView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColoursView.swift; sourceTree = "<group>"; };
 		B15722752967DDB500085988 /* IconImagesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IconImagesView.swift; sourceTree = "<group>"; };
 		B15722772967FC0500085988 /* ImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageView.swift; sourceTree = "<group>"; };
+		B1B2C16D296AFA6D00F84A1E /* SpotifySearchPageSelfView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpotifySearchPageSelfView.swift; sourceTree = "<group>"; };
 		B1B8EC902968066900E17232 /* StackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StackView.swift; sourceTree = "<group>"; };
 		B1B8EC9229680EB000E17232 /* StackView2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StackView2.swift; sourceTree = "<group>"; };
 		B1B8EC942968123300E17232 /* StackView3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StackView3.swift; sourceTree = "<group>"; };
@@ -82,6 +84,7 @@
 				B1B8EC9229680EB000E17232 /* StackView2.swift */,
 				B1B8EC942968123300E17232 /* StackView3.swift */,
 				B13588732969623B006EC7EC /* SpotifySearchPageView.swift */,
+				B1B2C16D296AFA6D00F84A1E /* SpotifySearchPageSelfView.swift */,
 			);
 			path = "IOS 2023 First";
 			sourceTree = "<group>";
@@ -166,6 +169,7 @@
 			files = (
 				B13588742969623C006EC7EC /* SpotifySearchPageView.swift in Sources */,
 				B12133332965C6B5006AC109 /* ContentView.swift in Sources */,
+				B1B2C16E296AFA6D00F84A1E /* SpotifySearchPageSelfView.swift in Sources */,
 				B1C926C829670D55001785EC /* TextTutorial.swift in Sources */,
 				B1B8EC9329680EB000E17232 /* StackView2.swift in Sources */,
 				B12133312965C6B5006AC109 /* IOS_2023_FirstApp.swift in Sources */,
