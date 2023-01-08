@@ -47,8 +47,11 @@ struct SpotifySearchPageView: View {
                             .resizable()
                             .scaledToFill()
                             .frame(width: 65, height: 65)
-                            .clipped()
+                            .cornerRadius(5)
+                            .rotationEffect(.degrees(30))
+                            .offset(x: 15, y: 0)
                     }
+                    .clipped()
                     
                     ZStack (alignment: .bottomTrailing){
                         ZStack(alignment: .topLeading){
