@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct LoopsView: View {
-    let names = ["lolm", "beech", "dome", "bake", "gome"]
+    let names = ["lolm", "beech", "dome", "bake", "gome", "hoe"]
     var body: some View {
         VStack{
             
@@ -25,4 +25,5 @@ struct LoopsView_Previews: PreviewProvider {
         LoopsView()
     }
 }
+ 
  
