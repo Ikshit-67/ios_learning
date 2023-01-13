@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B11E2EF22971283500B0BC51 /* GridsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B11E2EF12971283500B0BC51 /* GridsView.swift */; };
+		B11E2EF429712D2B00B0BC51 /* InstagramProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B11E2EF329712D2B00B0BC51 /* InstagramProfileView.swift */; };
 		B12133312965C6B5006AC109 /* IOS_2023_FirstApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B12133302965C6B5006AC109 /* IOS_2023_FirstApp.swift */; };
 		B12133332965C6B5006AC109 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B12133322965C6B5006AC109 /* ContentView.swift */; };
 		B12133352965C6B7006AC109 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B12133342965C6B7006AC109 /* Assets.xcassets */; };
@@ -28,6 +30,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B11E2EF12971283500B0BC51 /* GridsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridsView.swift; sourceTree = "<group>"; };
+		B11E2EF329712D2B00B0BC51 /* InstagramProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstagramProfileView.swift; sourceTree = "<group>"; };
 		B121332D2965C6B5006AC109 /* IOS 2023 First.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "IOS 2023 First.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B12133302965C6B5006AC109 /* IOS_2023_FirstApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IOS_2023_FirstApp.swift; sourceTree = "<group>"; };
 		B12133322965C6B5006AC109 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -97,6 +101,8 @@
 				B1B94326296B0F70008B3929 /* SpacerView.swift */,
 				B1B94328296B1271008B3929 /* LoopsView.swift */,
 				B18AAFA6296C518F00969BA8 /* ScrollableView.swift */,
+				B11E2EF12971283500B0BC51 /* GridsView.swift */,
+				B11E2EF329712D2B00B0BC51 /* InstagramProfileView.swift */,
 			);
 			path = "IOS 2023 First";
 			sourceTree = "<group>";
@@ -186,6 +192,7 @@
 				B1C926C829670D55001785EC /* TextTutorial.swift in Sources */,
 				B1B8EC9329680EB000E17232 /* StackView2.swift in Sources */,
 				B12133312965C6B5006AC109 /* IOS_2023_FirstApp.swift in Sources */,
+				B11E2EF429712D2B00B0BC51 /* InstagramProfileView.swift in Sources */,
 				B1B8EC912968066900E17232 /* StackView.swift in Sources */,
 				B15722762967DDB500085988 /* IconImagesView.swift in Sources */,
 				B1B94329296B1271008B3929 /* LoopsView.swift in Sources */,
@@ -194,6 +201,7 @@
 				B15722782967FC0500085988 /* ImageView.swift in Sources */,
 				B18AAFA7296C518F00969BA8 /* ScrollableView.swift in Sources */,
 				B15722742967D70600085988 /* ColoursView.swift in Sources */,
+				B11E2EF22971283500B0BC51 /* GridsView.swift in Sources */,
 				B1B94325296B09D4008B3929 /* PaddingView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

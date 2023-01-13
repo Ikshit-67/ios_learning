@@ -30,7 +30,7 @@ struct ScrollableView: View {
                                 .scaledToFill()
                                 .frame(height: 150)
                                 .clipped()
-                                .cornerRadius(15)
+                                .cornerRadius(10)
                             
                             Text("Butter Chicken")
                                 .font(.callout)
