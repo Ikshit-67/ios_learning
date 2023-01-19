@@ -178,7 +178,7 @@ struct InstagramProfileView: View {
                 } // Padding vstack OVER
                 .padding(8)
                 
-            
+            //lol will continue this later
        
                 
             }
