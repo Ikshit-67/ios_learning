@@ -8,6 +8,14 @@
 import SwiftUI
 
 struct InstagramProfileView: View {
+    
+    let gridColumnsArray = [GridItem(.flexible()),
+                            GridItem(.flexible()),
+                            GridItem(.flexible())]
+    
+    let imageDimension = UIScreen.main.bounds.width / 3
+    
+    
     var body: some View {
         
         ScrollView{
@@ -18,10 +26,8 @@ struct InstagramProfileView: View {
                 VStack{
 
 
-
-
-
-//-----back arrow, username and verified tick START
+                    
+//----- back arrow, username and verified tick START
 //                 \  | |  /
 //                  -------
                     HStack{
@@ -52,7 +58,7 @@ struct InstagramProfileView: View {
 
 
 
-//-----profile photo, posts, followers, folllowing START
+//----- profile photo, posts, followers, folllowing START
 //                 \  | |  /
 //                  -------
                     HStack{
@@ -103,10 +109,10 @@ struct InstagramProfileView: View {
                     }
                     .padding([.top], 10)
                     // profile photo, posts, followers, folllowing OVER
-                    
+
 
                     
-//----------name and bio START
+//---------- name and bio START
 //                 \  | |  /
 //                  -------
                     VStack(alignment: .leading, spacing: 5){
@@ -166,6 +172,7 @@ struct InstagramProfileView: View {
                                 .bold()
                             Text("and")
                             Text("247 others")
+                                .bold()
                         }
                         .font(.caption)
                         .padding(.leading)
@@ -175,11 +182,77 @@ struct InstagramProfileView: View {
                     
                     }
                     //mutal followers images OVER
+
+
+
+//---------- following, message button and person plus icon START
+//                 \  | |  /
+//                  -------
+                    HStack{
+                        Text("Following")
+                            .font(.footnote)
+                            .fontWeight(.semibold)
+                            .frame(width: 155, height: 35)
+                            .overlay(
+                                RoundedRectangle(cornerRadius: 4).stroke(Color(.systemGray3))
+                            )
+                        
+                        Spacer()
+                        
+                        Text("Message")
+                            .font(.footnote)
+                            .fontWeight(.semibold)
+                            .frame(width: 155, height: 35)
+                            .overlay(
+                                RoundedRectangle(cornerRadius: 4).stroke(Color(.systemGray3))
+                            )
+                        
+                        Spacer()
+                        
+                        Image(systemName: "person.badge.plus")
+                            .font(.footnote)
+                            .fontWeight(.semibold)
+                            .frame(width: 35, height: 35)
+                            .overlay(
+                                RoundedRectangle(cornerRadius: 4).stroke(Color(.systemGray3))
+                            )
+                    }
+                    // following, message button and person plus icon OVER
+
                     
                     
+//---------- media type buttons START
+//                 \  | |  /
+//                  -------
+                    HStack(spacing: 80){
+                        Image(systemName: "squareshape.split.3x3")
+                        Image(systemName: "play.rectangle")
+                        Image(systemName: "play")
+                        Image(systemName: "person.crop.square")
+                    }
+                    .foregroundColor(Color(.darkGray))
+                    .padding(.vertical)
+                    //media type buttons OVER
+
+                    LazyVGrid(columns: gridColumnsArray, spacing: 0) {
+                        ForEach(0 ... 15, id: \.self) { index in
+                            Image("podcast2")
+                                .resizable()
+                                .scaledToFill()
+                                .frame(width: imageDimension, height: imageDimension)
+                                .border(Color(.white))
+                                .clipped()
+                        }
+                    }
                 } // Padding vstack OVER
-                .padding(8)
+                .padding(6)
                 
+                
+                
+                
+//                GRIDD START
+                
+    
                 
             }
         }
