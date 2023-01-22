@@ -168,18 +168,18 @@ struct InstagramProfileView: View {
                             Text("247 others")
                         }
                         .font(.caption)
+                        .padding(.leading)
                         
 //                        Text("Followed by")
                         Spacer()
                     
                     }
-//                  mutal followers images OVER
+                    //mutal followers images OVER
+                    
                     
                 } // Padding vstack OVER
                 .padding(8)
                 
-            //lol will continue this later
-       
                 
             }
         }
