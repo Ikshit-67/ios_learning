@@ -255,13 +255,6 @@ struct InstagramProfileView: View {
                 } // Padding vstack OVER
                 .padding(6)
                 
-                
-                
-                
-//                GRIDD START
-                
-    
-                
             }
         }
     }
