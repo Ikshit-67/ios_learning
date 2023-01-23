@@ -17,6 +17,7 @@
 		B15722742967D70600085988 /* ColoursView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B15722732967D70600085988 /* ColoursView.swift */; };
 		B15722762967DDB500085988 /* IconImagesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B15722752967DDB500085988 /* IconImagesView.swift */; };
 		B15722782967FC0500085988 /* ImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B15722772967FC0500085988 /* ImageView.swift */; };
+		B17A3D45297E5D4C000B4881 /* ButtonnsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B17A3D44297E5D4C000B4881 /* ButtonnsView.swift */; };
 		B18AAFA7296C518F00969BA8 /* ScrollableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B18AAFA6296C518F00969BA8 /* ScrollableView.swift */; };
 		B1B2C16E296AFA6D00F84A1E /* SpotifySearchPageSelfView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1B2C16D296AFA6D00F84A1E /* SpotifySearchPageSelfView.swift */; };
 		B1B8EC912968066900E17232 /* StackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1B8EC902968066900E17232 /* StackView.swift */; };
@@ -41,6 +42,7 @@
 		B15722732967D70600085988 /* ColoursView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColoursView.swift; sourceTree = "<group>"; };
 		B15722752967DDB500085988 /* IconImagesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IconImagesView.swift; sourceTree = "<group>"; };
 		B15722772967FC0500085988 /* ImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageView.swift; sourceTree = "<group>"; };
+		B17A3D44297E5D4C000B4881 /* ButtonnsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonnsView.swift; sourceTree = "<group>"; };
 		B18AAFA6296C518F00969BA8 /* ScrollableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollableView.swift; sourceTree = "<group>"; };
 		B1B2C16D296AFA6D00F84A1E /* SpotifySearchPageSelfView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpotifySearchPageSelfView.swift; sourceTree = "<group>"; };
 		B1B8EC902968066900E17232 /* StackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StackView.swift; sourceTree = "<group>"; };
@@ -103,6 +105,7 @@
 				B18AAFA6296C518F00969BA8 /* ScrollableView.swift */,
 				B11E2EF12971283500B0BC51 /* GridsView.swift */,
 				B11E2EF329712D2B00B0BC51 /* InstagramProfileView.swift */,
+				B17A3D44297E5D4C000B4881 /* ButtonnsView.swift */,
 			);
 			path = "IOS 2023 First";
 			sourceTree = "<group>";
@@ -194,6 +197,7 @@
 				B12133312965C6B5006AC109 /* IOS_2023_FirstApp.swift in Sources */,
 				B11E2EF429712D2B00B0BC51 /* InstagramProfileView.swift in Sources */,
 				B1B8EC912968066900E17232 /* StackView.swift in Sources */,
+				B17A3D45297E5D4C000B4881 /* ButtonnsView.swift in Sources */,
 				B15722762967DDB500085988 /* IconImagesView.swift in Sources */,
 				B1B94329296B1271008B3929 /* LoopsView.swift in Sources */,
 				B1C926CA29670D8D001785EC /* ShapesTutorial.swift in Sources */,
