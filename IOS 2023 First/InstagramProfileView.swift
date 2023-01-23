@@ -234,6 +234,11 @@ struct InstagramProfileView: View {
                     .padding(.vertical)
                     //media type buttons OVER
 
+                    
+                    
+//------------- posts lazy v grid START
+//                  ---------
+//                  \  | |  /
                     LazyVGrid(columns: gridColumnsArray, spacing: 0) {
                         ForEach(0 ... 15, id: \.self) { index in
                             Image("podcast2")
@@ -244,6 +249,9 @@ struct InstagramProfileView: View {
                                 .clipped()
                         }
                     }
+                    // posts lazy v grid OVER
+                    
+                    
                 } // Padding vstack OVER
                 .padding(6)
                 
