@@ -20,6 +20,7 @@
 		B17A3D45297E5D4C000B4881 /* ButtonnsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B17A3D44297E5D4C000B4881 /* ButtonnsView.swift */; };
 		B17A3D47297E6909000B4881 /* StatessView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B17A3D46297E6909000B4881 /* StatessView.swift */; };
 		B18AAFA7296C518F00969BA8 /* ScrollableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B18AAFA6296C518F00969BA8 /* ScrollableView.swift */; };
+		B1AC58BE298947A9003FF30F /* ControlFlowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1AC58BD298947A9003FF30F /* ControlFlowView.swift */; };
 		B1B2C16E296AFA6D00F84A1E /* SpotifySearchPageSelfView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1B2C16D296AFA6D00F84A1E /* SpotifySearchPageSelfView.swift */; };
 		B1B8EC912968066900E17232 /* StackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1B8EC902968066900E17232 /* StackView.swift */; };
 		B1B8EC9329680EB000E17232 /* StackView2.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1B8EC9229680EB000E17232 /* StackView2.swift */; };
@@ -27,6 +28,7 @@
 		B1B94325296B09D4008B3929 /* PaddingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1B94324296B09D4008B3929 /* PaddingView.swift */; };
 		B1B94327296B0F70008B3929 /* SpacerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1B94326296B0F70008B3929 /* SpacerView.swift */; };
 		B1B94329296B1271008B3929 /* LoopsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1B94328296B1271008B3929 /* LoopsView.swift */; };
+		B1C59AB3298A62DD0067BD12 /* BrBadApiTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1C59AB2298A62DD0067BD12 /* BrBadApiTest.swift */; };
 		B1C926C829670D55001785EC /* TextTutorial.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1C926C729670D55001785EC /* TextTutorial.swift */; };
 		B1C926CA29670D8D001785EC /* ShapesTutorial.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1C926C929670D8D001785EC /* ShapesTutorial.swift */; };
 /* End PBXBuildFile section */
@@ -46,6 +48,7 @@
 		B17A3D44297E5D4C000B4881 /* ButtonnsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonnsView.swift; sourceTree = "<group>"; };
 		B17A3D46297E6909000B4881 /* StatessView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatessView.swift; sourceTree = "<group>"; };
 		B18AAFA6296C518F00969BA8 /* ScrollableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollableView.swift; sourceTree = "<group>"; };
+		B1AC58BD298947A9003FF30F /* ControlFlowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ControlFlowView.swift; sourceTree = "<group>"; };
 		B1B2C16D296AFA6D00F84A1E /* SpotifySearchPageSelfView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpotifySearchPageSelfView.swift; sourceTree = "<group>"; };
 		B1B8EC902968066900E17232 /* StackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StackView.swift; sourceTree = "<group>"; };
 		B1B8EC9229680EB000E17232 /* StackView2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StackView2.swift; sourceTree = "<group>"; };
@@ -53,6 +56,7 @@
 		B1B94324296B09D4008B3929 /* PaddingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaddingView.swift; sourceTree = "<group>"; };
 		B1B94326296B0F70008B3929 /* SpacerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpacerView.swift; sourceTree = "<group>"; };
 		B1B94328296B1271008B3929 /* LoopsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoopsView.swift; sourceTree = "<group>"; };
+		B1C59AB2298A62DD0067BD12 /* BrBadApiTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrBadApiTest.swift; sourceTree = "<group>"; };
 		B1C926C729670D55001785EC /* TextTutorial.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextTutorial.swift; sourceTree = "<group>"; };
 		B1C926C929670D8D001785EC /* ShapesTutorial.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShapesTutorial.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -109,6 +113,8 @@
 				B11E2EF329712D2B00B0BC51 /* InstagramProfileView.swift */,
 				B17A3D44297E5D4C000B4881 /* ButtonnsView.swift */,
 				B17A3D46297E6909000B4881 /* StatessView.swift */,
+				B1AC58BD298947A9003FF30F /* ControlFlowView.swift */,
+				B1C59AB2298A62DD0067BD12 /* BrBadApiTest.swift */,
 			);
 			path = "IOS 2023 First";
 			sourceTree = "<group>";
@@ -197,6 +203,8 @@
 				B1B2C16E296AFA6D00F84A1E /* SpotifySearchPageSelfView.swift in Sources */,
 				B1C926C829670D55001785EC /* TextTutorial.swift in Sources */,
 				B1B8EC9329680EB000E17232 /* StackView2.swift in Sources */,
+				B1C59AB3298A62DD0067BD12 /* BrBadApiTest.swift in Sources */,
+				B1AC58BE298947A9003FF30F /* ControlFlowView.swift in Sources */,
 				B12133312965C6B5006AC109 /* IOS_2023_FirstApp.swift in Sources */,
 				B11E2EF429712D2B00B0BC51 /* InstagramProfileView.swift in Sources */,
 				B1B8EC912968066900E17232 /* StackView.swift in Sources */,
