@@ -40,8 +40,8 @@ struct ControlFlowView: View {
         
             VStack(alignment: .leading, spacing: 10){
                 Text("Theme")
-                    .font(.title2)
-                    .fontWeight(.medium)
+                    .font(.title3)
+                    .fontWeight(.semibold)
                     .foregroundColor(fgColor)
                 
                 Toggle(isOn: $darkModeOn) {
@@ -61,7 +61,7 @@ struct ControlFlowView: View {
                 .padding(.horizontal)
                 .frame(height: 45)
                 .background(rowBgColor)
-                .cornerRadius(5)
+                .cornerRadius(7.5)
             }
             
             Spacer()
