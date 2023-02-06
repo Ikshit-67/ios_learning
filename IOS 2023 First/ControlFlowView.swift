@@ -11,7 +11,23 @@ struct ControlFlowView: View {
     
     @State var darkModeOn = false
     
+    var rowBgColor: Color {
+        return darkModeOn ? Color.white.opacity(0.3) : Color(.systemGroupedBackground)
+    }
     
+    var fgColor: Color {
+        return darkModeOn ? Color.white : Color.black
+    }
+    
+    var bgColor: Color {
+        return darkModeOn ? Color.black : Color.white
+    }
+    
+    var iconFgColor: Color{
+        return darkModeOn ? Color.blue : Color.black
+    }
+    
+
     
     var body: some View {
         
@@ -20,33 +36,38 @@ struct ControlFlowView: View {
             Text("Settings")
                 .font(.largeTitle)
                 .fontWeight(.semibold)
-                .foregroundColor(darkModeOn ? Color.white : Color.black)
+                .foregroundColor(fgColor)
         
             VStack(alignment: .leading, spacing: 10){
                 Text("Theme")
-                    .font(.headline)
-                    .foregroundColor(darkModeOn ? Color.black : Color.white)
+                    .font(.title2)
+                    .fontWeight(.medium)
+                    .foregroundColor(fgColor)
                 
                 Toggle(isOn: $darkModeOn) {
                     HStack{
                         Image(systemName: "moon.circle.fill")
                             .font(.title2)
                             .imageScale(.medium)
+                            .foregroundColor(iconFgColor)
                         
                         Text("Enable dark mode")
-                            .font(.subheadline)
+                            .font(.callout)
+                            .fontWeight(.medium)
+                            .foregroundColor(fgColor)
                     }
                 }
+                .tint(.blue)
                 .padding(.horizontal)
                 .frame(height: 45)
-                .background(Color(.systemGroupedBackground))
+                .background(rowBgColor)
                 .cornerRadius(5)
             }
             
             Spacer()
         }
         .padding()
-        .background(darkModeOn ? Color.black : Color.white)
+        .background(bgColor)
     }
 }
 
