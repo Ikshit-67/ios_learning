@@ -11,24 +11,6 @@ struct ControlFlowView: View {
     
     @State var darkModeOn = false
     
-    var fgCOlor: Color{
-        if darkModeOn{
-            return .white
-        } else {
-            return .black
-        }
-    }
-    
-    
-    var bgColor: Color{
-        if darkModeOn {
-            return .black
-        } else {
-            return .white
-        }
-    }
-    
-    
     
     
     var body: some View {
@@ -38,12 +20,12 @@ struct ControlFlowView: View {
             Text("Settings")
                 .font(.largeTitle)
                 .fontWeight(.semibold)
-                .foregroundColor(fgCOlor)
+                .foregroundColor(darkModeOn ? Color.white : Color.black)
         
             VStack(alignment: .leading, spacing: 10){
                 Text("Theme")
                     .font(.headline)
-                    .foregroundColor(fgCOlor)
+                    .foregroundColor(darkModeOn ? Color.black : Color.white)
                 
                 Toggle(isOn: $darkModeOn) {
                     HStack{
@@ -64,7 +46,7 @@ struct ControlFlowView: View {
             Spacer()
         }
         .padding()
-        .background(bgColor)
+        .background(darkModeOn ? Color.black : Color.white)
     }
 }
 
