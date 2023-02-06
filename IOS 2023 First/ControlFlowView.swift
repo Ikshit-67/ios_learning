@@ -13,6 +13,8 @@ struct ControlFlowView: View {
     
     @State var notificationsOn: Bool = false
     
+    @State var wifiOn: Bool = false
+    
     var rowBgColor: Color {
         return darkModeOn ? Color.white.opacity(0.3) : Color(.systemGroupedBackground)
     }
@@ -31,6 +33,10 @@ struct ControlFlowView: View {
     
     var notificationsColor: Color {
         return notificationsOn ? Color.blue : Color.red
+    }
+    
+    var wifiColor: Color {
+        return wifiOn ? Color.blue : Color.gray
     }
 
     
@@ -104,6 +110,33 @@ struct ControlFlowView: View {
                 .tint(.blue)
                 .padding(.horizontal)
                 .frame(height: 75)
+                .background(rowBgColor)
+                .cornerRadius(7.5)
+            }
+            
+            
+            VStack(alignment: .leading){
+                 Text("Wifi")
+                    .font(.title3)
+                    .fontWeight(.semibold)
+                
+                Toggle(isOn: $wifiOn) {
+                    
+                    HStack{
+                        Image(systemName: "wifi.circle.fill")
+                            .font(.title)
+                            .foregroundColor(wifiColor)
+                        
+                        Text("Wi-Fi")
+                            .font(.callout)
+                            .foregroundColor(fgColor)
+                            .fontWeight(.medium)
+                    }
+                    
+                }
+                .tint(.blue)
+                .padding(.horizontal)
+                .frame(height: 45)
                 .background(rowBgColor)
                 .cornerRadius(7.5)
             }
