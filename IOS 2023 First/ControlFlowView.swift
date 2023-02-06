@@ -115,7 +115,7 @@ struct ControlFlowView: View {
             }
             
             
-            VStack(alignment: .leading){
+            VStack(alignment: .leading, spacing: 20){
                  Text("Wifi")
                     .font(.title3)
                     .fontWeight(.semibold)
@@ -137,6 +137,47 @@ struct ControlFlowView: View {
                 .tint(.blue)
                 .padding(.horizontal)
                 .frame(height: 45)
+                .background(rowBgColor)
+                .cornerRadius(7.5)
+                
+                
+                // available devices
+                
+                VStack(alignment: .leading, spacing: 15){
+                    Text("Available devices")
+                        .font(.title3)
+                        .fontWeight(.medium)
+                    
+                    VStack(alignment: .leading){
+                        HStack{
+                            Image(systemName: "wifi.circle.fill")
+                                .font(.title)
+                                .foregroundColor(.gray)
+                            
+                            Text("Pixel 4a")
+                                .font(.subheadline)
+                                .fontWeight(.semibold)
+                            
+                        }
+                        
+                        Divider()
+                        
+                        HStack{
+                            Image(systemName: "wifi.circle.fill")
+                                .font(.title)
+                                .foregroundColor(.gray)
+                            
+                            Text("Galaxy S9")
+                                .font(.subheadline)
+                                .fontWeight(.semibold)
+                            
+                        }
+                    }
+                   
+                   
+                }
+                .padding(.horizontal)
+                .frame(height: 200)
                 .background(rowBgColor)
                 .cornerRadius(7.5)
             }
